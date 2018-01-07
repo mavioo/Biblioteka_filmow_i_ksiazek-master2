@@ -62,6 +62,7 @@ public class dodajksiazke extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(dodajksiazke.this, index.class);
+                intent.putExtra("id",idBiblioteki);
                 startActivity(intent);
             }
         });
