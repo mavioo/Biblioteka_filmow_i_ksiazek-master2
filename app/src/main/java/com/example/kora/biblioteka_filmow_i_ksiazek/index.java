@@ -48,6 +48,14 @@ public class index extends AppCompatActivity {
         populateListViewBook();
     }
 
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        populateListViewFilm();
+        populateListViewBook();
+
+    }
+
     private void populateListViewFilm() {
         Cursor data = mDatabaseHelper.getFilmsFromLibrary(idBiblioteki);
         ArrayList<String> listData = new ArrayList<>();

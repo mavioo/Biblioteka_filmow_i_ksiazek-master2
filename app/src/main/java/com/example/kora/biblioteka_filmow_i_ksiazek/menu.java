@@ -39,6 +39,13 @@ public class menu extends AppCompatActivity {
         populateListView();
     }
 
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        populateListView();
+
+    }
+
     private void populateListView() {
         Log.d(TAG, "populateListView: Displaying data in the ListView.");
 
