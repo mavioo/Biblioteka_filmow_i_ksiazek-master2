@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tytuł"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tytulF1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tytuł"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/rezyserF1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Autor"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ilość Stron"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/CzasF1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ilość Stron"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rok wydania"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/rokF1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rok wydania"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gatunek"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/gatunekF1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gatunek"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opis"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/opisF1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Opis"
+        android:inputType="textPersonName" />
+</LinearLayout>

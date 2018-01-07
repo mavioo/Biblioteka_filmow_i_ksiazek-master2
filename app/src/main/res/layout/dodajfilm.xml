@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tytul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tytuł"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/rezyser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Reżyser"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Czas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Czas trwania"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/rok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rok produkcji"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/gatunek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gatunek"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/opisF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Opis"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj"
+        android:gravity="center"
+        android:layout_below="@+id/opisF"
+        android:id="@+id/dodajdof"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lista2"
+        android:text="Lista"
+        android:layout_below="@+id/dodajdof"
+        />
+</LinearLayout>

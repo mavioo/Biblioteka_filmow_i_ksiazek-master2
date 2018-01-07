@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/dodaj_biblioteke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dodajb" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="407dp"
+        android:id="@+id/listView"/>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="15dp" >
+    <Button
+        android:id="@+id/powrot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wróć" />
+    </TableRow>
+</LinearLayout>

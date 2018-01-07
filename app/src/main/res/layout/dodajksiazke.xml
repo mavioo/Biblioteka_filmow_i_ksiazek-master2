@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tytul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tytuł"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/rezyser2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Autor"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Czas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ilość Stron"
+        android:inputType="number"  />
+
+    <EditText
+        android:id="@+id/rok2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rok wydania"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/gatunek2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gatunek"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/opisF2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Opis"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj"
+        android:gravity="center"
+        android:layout_below="@+id/opisF2"
+        android:id="@+id/dodajdof2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lista2"
+        android:text="Lista"
+        android:layout_below="@+id/dodajdof2"
+        />
+</LinearLayout>
