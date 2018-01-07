@@ -38,6 +38,18 @@
     <ListView
         android:id="@+id/filmList"
         android:layout_width="match_parent"
-        android:layout_height="448dp" />
+        android:layout_height="156dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ksiązki" />
+
+    <ListView
+        android:id="@+id/bookList"
+        android:layout_width="match_parent"
+        android:layout_height="187dp" />
 
 </LinearLayout>

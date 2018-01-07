@@ -21,12 +21,12 @@ public class ksiazkaszczegoly extends AppCompatActivity {
         setContentView(R.layout.ksiazkaszczegoly);
         Intent intent = getIntent();
         idbook = intent.getIntExtra("id",0);
-        tytul1 = (TextView) findViewById(R.id.tytul2);
-        autor = (TextView) findViewById(R.id.rezyser2);
-        iloscstron = (TextView) findViewById(R.id.Czas2);
-        rok1 = (TextView) findViewById(R.id.rok2);
-        gatunek1 = (TextView) findViewById(R.id.gatunek2);
-        opis1 = (TextView) findViewById(R.id.opisF2);
+        tytul1 = (TextView) findViewById(R.id.tytulF1);
+        autor = (TextView) findViewById(R.id.rezyserF1);
+        iloscstron = (TextView) findViewById(R.id.CzasF1);
+        rok1 = (TextView) findViewById(R.id.rokF1);
+        gatunek1 = (TextView) findViewById(R.id.gatunekF1);
+        opis1 = (TextView) findViewById(R.id.opisF1);
         mDatabaseHelper = new databasehelper(this);
 
         getbookDetails();
